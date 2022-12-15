@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body id="body">
+    <div id="modal">
+        <img src="./img/rewards/Guide/Close-Btn.png" id="close-btn" onclick="hideGuidline()">
+        <div id="guidline">
+            <ul>
+                <li>Top 10 talents have to register their id’s with OyeTalk team to participate in this event</li>
+                <li>The Pk Battle will be for 5min, Talent has to play this Battle by inviting the opponent by themself
+                    through Friends PK option as per the web page schedule.</li>
+                <li>The Talent need to follow the opponent before itself so can play the invite PK.</li>
+                <li>Talents need to come live before 15min of the PK Battle.</li>
+                <li>Talents will be ranked on the leaderboard according to their earnings in the pk.</li>
+                <li>Will have 1 winner based on maximum beans received will bementioned in the BANNER for 3 days.</li>
+                <li>Users will be ranked on the leaderboard according to their spending.</li>
+                <li>Top User will be the winner of the tournament will be mentioned in the BANNER for 3 days.</li>
+                <li>Top 5 talents and users will be mentioned in the web page.</li>
+                <li>The talent and user rewards will be distributed as per beans they are receive and spend respectively
+                    of the given Criteria.</li>
+            </ul>
+        </div>
+    </div>
+    <div id="main-content">
+
+        <!-- header -->
+        <img src="./img/Header.png" style="width: 100vw;">
+        <div>
+            <!-- <img src="./img/Talent-Btn-Unselect.png" id="rules-btn" onclick="showGuidline()"> -->
+            <button id="rules-btn" onclick="showGuidline()">Rules</button>
+        </div>
+
+        <!-- schedule banner -->
+        <div id="schedule-banner">
+            <div style="padding: 20vw 13vw;">
+                <div id="table-heading">
+                    <div>Date</div>
+                    <div>Player1</div>
+                    <img src="./img/VS-Text.png" style="height: 5vw;">
+                    <div>Player2</div>
+                    <div>Time</div>
+                </div>
+                <hr />
+                <div id="table-data">
+                    <div>Date</div>
+                    <div>Name<br />Id:00000000</div>
+                    <img src="./img/VS-Text.png" style="height: 4vw;">
+                    <div>Name<br />Id:00000000</div>
+                    <div>Time</div>
+                </div>
+                <hr />
+                <div id="table-data">
+                    <div>Date</div>
+                    <div>Name<br />Id:00000000</div>
+                    <img src="./img/VS-Text.png" style="height: 4vw;">
+                    <div>Name<br />Id:00000000</div>
+                    <div>Time</div>
+                </div>
+                <hr />
+                <div id="table-data">
+                    <div>Date</div>
+                    <div>Name<br />Id:00000000</div>
+                    <img src="./img/VS-Text.png" style="height: 4vw;">
+                    <div>Name<br />Id:00000000</div>
+                    <div>Time</div>
+                </div>
+                <hr />
+                <div id="table-data">
+                    <div>Date</div>
+                    <div>Name<br />Id:00000000</div>
+                    <img src="./img/VS-Text.png" style="height: 4vw;">
+                    <div>Name<br />Id:00000000</div>
+                    <div>Time</div>
+                </div>
+                <hr />
+                <div id="table-data">
+                    <div>Date</div>
+                    <div>Name<br />Id:00000000</div>
+                    <img src="./img/VS-Text.png" style="height: 4vw;">
+                    <div>Name<br />Id:00000000</div>
+                    <div>Time</div>
+                </div>
+                <hr />
+            </div>
+        </div>
+
+        <!-- action on reward banner -->
+        <div class="action">
+            <img src="./img/User-Btn-Unselect.png" id="user" onclick="selectUserMode()" style="height: 15vw;">
+            <img src="./img/Talent-Btn-Selected.png" id="talent" onclick="selectTalentMode()" style="height: 15vw;">
+        </div>
+
+        <!-- reward banner -->
+        <div id="reward-banner">
+            <div id="rewards" class="talent-rewards-banner">
+                <img src="./img/rewards/Horse-Carriage.png" id="img1">
+                <img src="./img/rewards/Meteor-Room-Theme.png" id="img2">
+                <img src="./img/rewards/Marigold-Mic-Frame.png" id="img3">
+            </div>
+            <div id="carousel">
+                <img src="./img/Left-Btn.png" onclick="onLeftSlider()" style="height: 4vw;">
+                <div id="reward-description"> 10 Days Horse Carriage Entrance effect + <br />Meteor room theme +
+                    Marigold Mic frames</div>
+                <img src="./img/Right-Btn.png" onclick="onRightSlider()" style="height: 4vw;">
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div id="footer">All Rights Reserved By StreamKar</div>
+    </div>
+</body>
+
+</html>

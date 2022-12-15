@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/Bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#rules-btn {
+    /* height: 15vw;
+    z-index: 3;
+    float: right;
+    position: relative;
+    top: -3vw; */
+
+
+    float: right;
+    padding: 1vw;
+    font-size: 5vw;
+    border-radius: 15px 0 0 15px;
+    border: none;
+    font-family: cursive;
+    width: 25vw;
+    color: #831010;
+    background-color: #efbc22db;
+    box-shadow: rgb(17 17 26 / 10%) 0px 4px 16px, rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px;
+}
+
+/*------ guidline ------*/
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 4;
+    text-align: center;
+}
+
+#close-btn {
+    float: right;
+    padding: 5vw;
+    height: 7vw;
+}
+
+#guidline {
+    background-image: url(./img/rewards/Guide/How-To-Play-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 4vw;
+    padding: vw;
+    text-align: start;
+    color: white;
+    padding: 10vw;
+    margin-top: 10vh;
+    height: 120vw;
+    min-height: 100vw;
+    margin-left: 4vw;
+}
+
+/* ------schedule banner ------ */
+#schedule-banner {
+    background-image: url(./img/Schedule-Box-With-Text.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 8vw;
+}
+
+#table-heading {
+    display: grid;
+    grid-template-columns: 15% 30% 10% 30% 15%;
+    font-size: 4vw;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    margin: 0.5vw 0;
+}
+
+#table-data {
+    display: grid;
+    grid-template-columns: 15% 30% 10% 30% 15%;
+    font-size: 3.5vw;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    margin: 0.5vw 0;
+}
+
+ul {
+    height: 100vw;
+    min-height: 80vw;
+    overflow: scroll;
+    margin-top: 10vw;
+    margin-right: 5vw;
+}
+
+hr {
+    height: 1px;
+    background-color: #bf364ecf;
+    border: none;
+    margin: 0;
+}
+
+/*---- action on rewards banner -----*/
+.action {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    justify-content: center;
+    position: relative;
+    top: -3vw;
+}
+
+/*----- rewards banner ------*/
+#reward-banner {
+    background-image: url(./img/Rewards-Box-With\ -Text.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 18vw 10vw;
+}
+
+.talent-rewards-banner {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
+
+.user-rewards-banner {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
+
+.two-img-slider {
+    grid-template-columns: auto auto !important;
+}
+
+.one-img-slider {
+    grid-template-columns: auto !important;
+}
+
+#rewards img {
+    height: 25vw;
+    border-radius: 50%;
+    border: 2px solid #a90a3f;
+}
+
+#carousel {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+#reward-description {
+    font-size: 3.5vw;
+    color: white;
+}
+
+#footer {
+    font-size: 5vw;
+    text-align: center;
+    color: #5a0505;
+    margin-bottom: 5vw;
+}
