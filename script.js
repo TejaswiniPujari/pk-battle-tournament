@@ -125,7 +125,7 @@ function selectUserMode() {
 
 function selectTalentMode() {
     document.getElementById('talent').src = "./img/Talent-Btn-Selected.png";
-    document.getElementById('user').src = "./img/User-Btn-UnSelect.png";
+    document.getElementById('user').src = "./img/User-Btn-Unselect.png";
     mode = 'talent';
     document.getElementById('reward-description').innerHTML = talentRewards[0];
     slideNumber = 0;
